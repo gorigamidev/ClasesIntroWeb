@@ -1,0 +1,34 @@
+:root{
+    --color-principal: #ff9900;
+    --color-fuente: #383838;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo {
+    height: 50px;
+}
+#principal-nav{
+    background-color: var(--color-principal);
+    color: var(--color-fuente);
+    justify-content: space-between;
+}
+#datos {
+    border: orange 1px solid;
+    margin-left: 10%;
+}
+#navegacion{
+    border: green 1px solid;
+    margin-right: 10%;
+}
+.flex-h{
+    display: flex;
+    flex-direction: row;
+}
+.flex-v{
+    display: flex;
+    flex-direction: column;
+}

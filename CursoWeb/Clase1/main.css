@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    margin: 3px;
+    padding: 3px;
+    border: 1px red solid;
+    background-color: rgb(109, 109, 201);
+}
+div {
+    border-color: yellow;
+    border-width: 3px;
+    border-style: double;
+}
+aside {
+    border: 2px orange dotted;
+}
